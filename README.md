@@ -23,18 +23,18 @@ As sourced in my dissertation, these legislative excerpts were found in **hukumo
 They were translated into English using Google Translate.
 
 **Access the dataframe:**  
-[test.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71500ff9-f0b1-4cca-8560-ba8dd98ab43d/test.xlsx)
+[test.xlsx](
 
 ---
 
 ## Analysis
 
 You can access the full R Markdown file here:  
-[RPubs – Dissertation Text Analysis](https://rpubs.com/annisaptr/dissertation)
+[RPubs – Dissertation Text Analysis]()
 
 ### Word Cloud
 
-![Word Cloud](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da85c995-4694-493b-9ebb-9f19fc8506ae/Untitled.png)
+![Word Cloud]()
 
 **Table 1: Top 5 Frequent Words**
 
@@ -72,15 +72,15 @@ For instance:
 
 **Bar Chart 1: 1915 Version**
 
-![1915 Version](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1155aa6d-f8ae-41ac-9291-828f860f4ba9/Screenshot_2023-06-24_at_00.09.41.png)
+![1915 Version]()
 
 **Bar Chart 2: 2015 Version**
 
-![2015 Version](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d2c0e97-85e6-42c7-9263-ef49cc1477a3/Screenshot_2023-06-24_at_00.08.43.png)
+![2015 Version]()
 
 **Bar Chart 3: 2023 Version**
 
-![2023 Version](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57d4292f-64c4-408e-8480-a723a4de0e44/Screenshot_2023-06-24_at_00.10.32.png)
+![2023 Version]()
 
 ---
 
@@ -92,34 +92,61 @@ Using **KWIC on “woman”** reveals that it frequently appears as the **victim
 Meanwhile, **“person”** appears neutrally, referring to both roles — reflecting the gradual shift toward gender-neutral legal framing.
 
 #### Table 3: KWIC on “Woman” (window of 5 words)
-*(Truncated for brevity in README — full table available in project files.)*
 
-| Words before | Keyword | Words after |
+| Words before the keyword | Keyword | Words after the keyword |
 | --- | --- | --- |
 | threat of violence forces a | woman | to have sexual intercourse with |
 | who has intercourse with a | woman | outside of marriage, against |
-| ... | ... | ... |
+| against the will of the | woman | ; |
+| who have intercourse with a | woman | outside of marriage, without |
+| with the consent of the | woman | , but this consent is |
+| has sexual intercourse with a | woman | , with the woman's consent |
+| the woman's consent because the | woman | believes that the man is |
+| who have intercourse with a | woman | under the age of 18 |
+| has sexual intercourse with a | woman | , even though it is |
+| it is known that the | woman | is unconscious or helpless. |
 
 #### Table 4: KWIC on “Man” (window of 7 words)
 
-| Words before | Keyword | Words after |
+| Words before the keyword | Keyword | Words after the keyword |
 | --- | --- | --- |
 | a | man | who has intercourse with a woman outside |
-| ... | ... | ... |
+| a | man | who have intercourse with a woman outside |
+| a | man | who have intercourse with women, with |
+| a | man | who has sexual intercourse with a woman |
+| consent because the woman believes that | man | is her legal husband; |
+| a | man | who have intercourse with a woman under |
+| a | man | who has sexual intercourse with a woman |
+| a | man | insert their genitals into the anus or |
+| a | man | enters an object that is not a |
 
 #### Table 5: KWIC on “Intercourse” (window of 5 words)
 
-| Words before | Keyword | Words after |
+| Words before the keyword | Keyword | Words after the keyword |
 | --- | --- | --- |
 | violence forces a woman to have sexual | intercourse | with him out of marriage, shall |
-| ... | ... | ... |
+| a man who has | intercourse | with a woman outside of marriage, |
+| a man who have | intercourse | with a woman outside of marriage, |
+| a man who have | intercourse | with women, with the consent of |
+| a man who has sexual | intercourse | with a woman, with the woman's |
+| a man who have | intercourse | with a woman under the age of |
+| a man who has sexual | intercourse | with a woman, even though it |
+| Violence, forces someone to have sexual | intercourse | with them, shall be sentenced due |
+| sexual | intercourse | with a person with their consent, |
+| sexual | intercourse | with a Child; |
 
 #### Table 6: KWIC on “Person” (window of 5 words)
 
-| Words before | Keyword | Words after |
+| Words before the keyword | Keyword | Words after the keyword |
 | --- | --- | --- |
 | Any | person | who by using violence or |
-| ... | ... | ... |
+| Any | Person | who, through Violence or |
+| sexual intercourse with a | person | with their consent, because |
+| their consent, because the | person | believes that the person is |
+| the person believes that the | person | is a legitimate husband/ |
+| sexual intercourse with a | person | , even though it is |
+| is known that the other | person | is in a state of |
+| anus or mouth of another | person | ; |
 
 ---
 
