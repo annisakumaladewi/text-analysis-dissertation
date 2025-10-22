@@ -10,7 +10,8 @@ I referred to three main legislations to answer my research question:
 2. The Criminal Code (KUHP)  
 3. The Ministry Regulation of Prevention and Handling of Sexual Violence Crimes in Higher Education (Permen PPKS)
 
-Despite the exciting process of writing my dissertation, I have always wondered what it would look like if I had implemented a **quantitative textual analysis** on my corpus.  
+Despite the exciting process of writing my dissertation, I have always wondered what it would look like if I had implemented a **quantitative textual analysis** on my corpus. 
+
 Hence, in this project, I used **corpus statistics** on a section of my appendix (source 4), exploring how the term *“rape”* is defined in Indonesia’s Criminal Code and how the definition has changed over time.  
 
 I used primarily the `quanteda` package in R, importing the corpus from my dissertation to Excel before saving it as a `.csv` file.
@@ -23,18 +24,18 @@ As sourced in my dissertation, these legislative excerpts were found in **hukumo
 They were translated into English using Google Translate.
 
 **Access the dataframe:**  
-[test.xlsx](
+[test.xlsx](/dataset.xlsx)
 
 ---
 
 ## Analysis
 
 You can access the full R Markdown file here:  
-[RPubs – Dissertation Text Analysis]()
+[RPubs – Dissertation Text Analysis](https://rpubs.com/annisaptr/dissertation)
 
 ### Word Cloud
 
-![Word Cloud]()
+![Word Cloud](/figures/wordcloud.png)
 
 **Table 1: Top 5 Frequent Words**
 
@@ -72,15 +73,15 @@ For instance:
 
 **Bar Chart 1: 1915 Version**
 
-![1915 Version]()
+![1915 Version](/figures/bar_chart_1.png)
 
 **Bar Chart 2: 2015 Version**
 
-![2015 Version]()
+![2015 Version](/figures/bar_chart_2.png)
 
 **Bar Chart 3: 2023 Version**
 
-![2023 Version]()
+![2023 Version](/figures/bar_chart_3.png)
 
 ---
 
